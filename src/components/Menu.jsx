@@ -90,7 +90,7 @@ const Menu = () => {
         <div className="col-span-12 md:col-span-5 flex flex-col  items-center">
           <div className="w-auto md:w-[400px] text-left p-2 md:p-0 ">
             <h2 className="text-sm md:text-lg font-normal text-left mr-6 md:mr-12 py-3 md:py-0">
-              <span className="block text-2xl md:text-5xl">
+              <span className="block text-2xl md:text-6xl">
                 {" "}
                 <i className="fa-solid fa-quote-right"></i>
               </span>

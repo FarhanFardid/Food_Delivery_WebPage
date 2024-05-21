@@ -45,7 +45,8 @@ const Header = () => {
               <img
                 src={GoogleImg}
                 alt="Second Image"
-                className="w-25 h-10 md:w-36 md:h-14 rounded-md   border-2 border-black"
+                className="w-25 h-10 md:w-36 md:h-14 rounded-md   border-2 border-black bg-[#F4F4F4
+                ]"
               />
             </div>
           </div>
