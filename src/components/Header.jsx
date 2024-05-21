@@ -9,7 +9,7 @@ const Header = () => {
         <div className="hero-content flex flex-col md:flex-row-reverse items-center justify-center">
           <img src={courierImg} className="w-[570px] h-[478px] rounded-xl shadow-2xl flex-1 transform scale-x-[-1] bg-[#F2EBDA] pt-5" />
           <div className="flex-1">
-            <h1 className="text-2xl md:text-5xl mt-3 md:mt-0 ms-4 md:ms-0 font-bold w-auto h-[40px] md:w-[585px] md:h-[130px] ">Your Favorite Food Delivery Partner</h1>
+            <h1 className="text-2xl md:text-5xl mt-3 md:mt-0 ms-4 md:ms-0 font-bold w-full h-[40px] md:w-[585px] md:h-[130px] ">Your Favorite Food Delivery Partner</h1>
             <p className="text-sm  md:text-lg md:w-[528px] md:h-auto font-normal pb-2 md:pb-4 mx-auto md:mx-0">The food at your doorstep. Why starve when you have us. Your hunger partner. Straight out of the oven to your doorstep.</p>
           
     <div className="flex md: flex-row w-[464px] h-[64px] items-center justify-center">
