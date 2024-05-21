@@ -2,7 +2,8 @@ import logo from "../assets/images/craveCourier.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
+    // fixed z-20 top-0 start-0
+    <nav className="bg-white dark:bg-gray-900  w-full  border-b border-gray-200 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-8 md:h-12" alt="Crave Courier Logo" />
@@ -22,7 +23,7 @@ const Navbar = () => {
           </button>
           <button
             type="button"
-            className="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full  text-xs md:text-sm px-3 md:px-5  py-1.5 md:py-2.5 me-1 md:me-2 mb-1 md:mb-2 btn-xs md:btn-md "
+            className="text-white bg-[#E94339] hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full  text-xs md:text-sm px-3 md:px-5  py-1.5 md:py-2.5 me-1 md:me-2 mb-1 md:mb-2 btn-xs md:btn-md "
           >
             Sign Up
           </button>
