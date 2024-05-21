@@ -15,8 +15,6 @@ function App() {
       <Order></Order>
       <Feedback></Feedback>
       <Newsletter></Newsletter>
-
-    
     </>
   );
 }

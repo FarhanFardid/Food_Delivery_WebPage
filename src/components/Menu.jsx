@@ -31,7 +31,9 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Pizza</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Pizza
+              </h2>
             </div>
           </div>
           <div className=" card w-[180px] h-[160px] md:w-[250px] md:h-[250px] bg-base-100 text-center">
@@ -43,7 +45,9 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Burger</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Burger
+              </h2>
             </div>
           </div>
           <div className=" card w-[180px] h-[160px] md:w-[250px] md:h-[250px] bg-base-100 text-center">
@@ -55,7 +59,9 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Sushi</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Sushi
+              </h2>
             </div>
           </div>
         </div>
@@ -82,18 +88,21 @@ const Menu = () => {
       {/* 2nd Row of Menu */}
       <div className="grid grid-cols-12 gap-1 md:gap-4 px-1 py-2 md:px-16 md:py-6 items-center justify-center">
         <div className="col-span-12 md:col-span-5 flex flex-col  items-center">
-          <div className= "w-auto md:w-[400px] text-left p-2 md:p-0 ">
+          <div className="w-auto md:w-[400px] text-left p-2 md:p-0 ">
             <h2 className="text-sm md:text-lg font-normal text-left mr-6 md:mr-12 py-3 md:py-0">
-                <span className="block text-2xl md:text-5xl">  <i className="fa-solid fa-quote-right"></i></span>
-          
-                <span className="text-[#FF5331] font-medium"> CraveCourier</span>, your go-to food delivery service. Enjoy a wide
-              selection of delicious meals from top-rated restaurants, delivered
-              to your doorstep with speed and convenience. 
+              <span className="block text-2xl md:text-5xl">
+                {" "}
+                <i className="fa-solid fa-quote-right"></i>
+              </span>
+              <span className="text-[#FF5331] font-medium"> CraveCourier</span>,
+              your go-to food delivery service. Enjoy a wide selection of
+              delicious meals from top-rated restaurants, delivered to your
+              doorstep with speed and convenience.
             </h2>
           </div>
         </div>
         <div className="col-span-12 md:col-span-7 grid grid-cols-3 md:gap-4 ">
-        <div className=" card w-[180px] h-[160px] md:w-[250px] md:h-[250px] bg-base-100 text-center">
+          <div className=" card w-[180px] h-[160px] md:w-[250px] md:h-[250px] bg-base-100 text-center">
             <figure className=" px-1 md:px-12 ">
               <img
                 src={pasta}
@@ -102,7 +111,9 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">pasta</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                pasta
+              </h2>
             </div>
           </div>
           <div className=" card w-[180px] h-[160px] md:w-[250px] md:h-[250px] bg-base-100 text-center">
@@ -114,7 +125,9 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Salad</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Salad
+              </h2>
             </div>
           </div>
           <div className=" card w-[180px] h-[160px] md:w-[250px] md:h-[250px] bg-base-100 text-center">
@@ -126,7 +139,9 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Desserts</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Desserts
+              </h2>
             </div>
           </div>
         </div>

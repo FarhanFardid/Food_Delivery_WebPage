@@ -1,7 +1,7 @@
-import location from '../assets/images/location.png';
-import selection from '../assets/images/select.jpg';
-import food from '../assets/images/food.jpg';
-import home from '../assets/images/home delivery.png';
+import location from "../assets/images/location.png";
+import selection from "../assets/images/select.jpg";
+import food from "../assets/images/food.jpg";
+import home from "../assets/images/home delivery.png";
 const Order = () => {
   return (
     <div className="mt-[30px] container-fluid">
@@ -13,9 +13,9 @@ const Order = () => {
       <div className="grid grid-cols-12 gap-1 px-1 py -2 md:px-5 md:py-6 justify-around">
         <div className="col-span-12 grid grid-cols-2 md:grid-cols-4 justify-center">
           <div className=" card w-[200px] h-[180px]  bg-base-100 text-center mx-auto">
-          <h5 className="text-left text-lg md:text-3xl font-bold">
-  <span className="badge badge-xs text-[#FF5331]">01</span>
-</h5>
+            <h5 className="text-left text-lg md:text-3xl font-bold">
+              <span className="badge badge-xs text-[#FF5331]">01</span>
+            </h5>
             <figure className="px-1 md:px-12">
               <img
                 src={location}
@@ -24,13 +24,15 @@ const Order = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Choose your location</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Choose your location
+              </h2>
             </div>
           </div>
           <div className=" card w-[200px] h-[180px] bg-base-100 text-center mx-auto">
-          <h5 className="text-left text-lg md:text-3xl font-bold">
-  <span className="badge badge-xs text-[#FF5331]">02</span>
-</h5>
+            <h5 className="text-left text-lg md:text-3xl font-bold">
+              <span className="badge badge-xs text-[#FF5331]">02</span>
+            </h5>
             <figure className=" px-1 md:px-12 ">
               <img
                 src={selection}
@@ -39,13 +41,15 @@ const Order = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Choose what to eat</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Choose what to eat
+              </h2>
             </div>
           </div>
           <div className=" card w-[200px] h-[180px] bg-base-100 text-center mx-auto">
-          <h5 className="text-left text-lg md:text-3xl font-bold">
-  <span className="badge badge-xs text-[#FF5331]">03</span>
-</h5>
+            <h5 className="text-left text-lg md:text-3xl font-bold">
+              <span className="badge badge-xs text-[#FF5331]">03</span>
+            </h5>
             <figure className=" px-1 md:px-12 ">
               <img
                 src={food}
@@ -54,13 +58,15 @@ const Order = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Place your first order</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Place your first order
+              </h2>
             </div>
           </div>
           <div className=" card w-[200px] h-[180px] bg-base-100 text-center mx-auto">
-          <h5 className="text-left text-lg md:text-3xl font-bold">
-  <span className="badge badge-xs text-[#FF5331]">04</span>
-</h5>
+            <h5 className="text-left text-lg md:text-3xl font-bold">
+              <span className="badge badge-xs text-[#FF5331]">04</span>
+            </h5>
             <figure className=" px-1 md:px-12 ">
               <img
                 src={home}
@@ -69,11 +75,12 @@ const Order = () => {
               />
             </figure>
             <div className="card-body text-center">
-              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">Now! your food in way</h2>
+              <h2 className="card-title font-bold text-xs md:text-lg mt-2 md:mt-3">
+                Now! your food in way
+              </h2>
             </div>
           </div>
         </div>
-    
       </div>
     </div>
   );
