@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     // fixed z-20 top-0 start-0
     <nav className="bg-white dark:bg-gray-900  w-full  border-b border-gray-200 ">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-8 md:h-12" alt="Crave Courier Logo" />
           <span className="self-center text-md md:text-2xl font-bold whitespace-nowrap text-red-700">
