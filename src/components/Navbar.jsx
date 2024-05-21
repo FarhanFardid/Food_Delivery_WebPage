@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-8 md:h-16" alt="Crave Courier Logo" />
-          <span className="self-center text-md md:text-3xl font-bold whitespace-nowrap text-red-700">
+          <span className="self-center text-md md:text-3xl font-bold whitespace-nowrap text-[#FF5331]">
             CraveCourier{" "}
-            <span className="text-xs md:text-sm align-baseline text-red-600">
+            <span className="text-xs md:text-sm align-baseline text-[#E94339]">
               Food Delivery
             </span>
           </span>
@@ -19,6 +19,7 @@ const Navbar = () => {
             type="button"
             className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-xs md:text-sm px-3 md:px-5  py-1.5 md:py-2.5 me-1 md:me-2 mb-1 md:mb-2 btn-xs md:btn-md "
           >
+            
             Login
           </button>
           <button
