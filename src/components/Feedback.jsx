@@ -1,6 +1,6 @@
 const Feedback = () => {
   return (
-    <div className="container-fluid md:mt-[50px]">
+    <div className="container-fluid md:mt-[90px]">
       <div className="w-full  py-3 md:py-8 text-center">
         <h2 className="text-2xl md:text-4xl py-1 md:py-3 font-bold px-3 md:px-20">
           Our Clients Feedback

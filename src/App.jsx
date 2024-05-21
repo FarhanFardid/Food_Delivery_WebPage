@@ -1,5 +1,6 @@
 import "./App.css";
 import Feedback from "./components/Feedback";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Order></Order>
       <Feedback></Feedback>
       <Newsletter></Newsletter>
+      <Footer></Footer>
     </>
   );
 }

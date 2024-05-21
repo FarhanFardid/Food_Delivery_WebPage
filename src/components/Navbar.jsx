@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-white dark:bg-gray-900  w-full  border-b border-gray-200 container-fluid">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo} className="h-8 md:h-12" alt="Crave Courier Logo" />
+          <img src={logo} className="h-8 md:h-16" alt="Crave Courier Logo" />
           <span className="self-center text-md md:text-3xl font-bold whitespace-nowrap text-red-700">
             CraveCourier{" "}
             <span className="text-xs md:text-sm align-baseline text-red-600">
