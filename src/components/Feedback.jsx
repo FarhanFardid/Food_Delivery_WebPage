@@ -18,9 +18,9 @@ const Feedback = () => {
       <div className="text-center py-3 "><p className="md:text-lg text-md font-bold">Mitchell Marsh</p>
       <p className="text-xs muted">CEO, Bexon Agency</p></div>
  <div className="text-center py-3"> 
- <button className="btn btn-circle h-9 w-9 rounded-full  text-2xl bg-[#E2E2E2] mr-3"> <i className="fa-solid fa-angle-left "></i>
+ <button className="btn btn-circle h-6 w-6 md:h-9 md:w-9 rounded-full md:text-2xl bg-[#E2E2E2] mr-3"> <i className="fa-solid fa-angle-left "></i>
 </button>
- <button className="ml-3 btn btn-circle text-2xl h-9 w-9 rounded-full bg-[#FF5331]"> <i className="fa-solid fa-angle-right"></i>
+ <button className="ml-3 btn btn-circle md:text-2xl h-6 w-6 md:h-9 md:w-9 rounded-full bg-[#FF5331]"> <i className="fa-solid fa-angle-right"></i>
 </button>
  </div>
         </div>
