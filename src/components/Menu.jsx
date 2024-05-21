@@ -8,6 +8,7 @@ import deliveryBoy from "../assets/images/delivery boy.jpg";
 
 const Menu = () => {
   return (
+    // Heading part
     <div className="mt-[150px] text-center container-fluid">
       <div className="w-[610px]  mx-auto py-8">
         <h2 className="text-4xl py-3 font-bold px-20">
@@ -30,7 +31,7 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title font-bold text-xl mt-3">Pizza</h2>
+              <h2 className="card-title font-bold text-lg mt-3">Pizza</h2>
             </div>
           </div>
           <div className="card w-[250px] h-[250px] bg-base-100">
@@ -42,7 +43,7 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title font-bold text-xl mt-3">Burger</h2>
+              <h2 className="card-title font-bold text-lg mt-3">Burger</h2>
             </div>
           </div>
           <div className="card w-[250px] h-[250px] bg-base-100">
@@ -54,7 +55,7 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title font-bold text-xl mt-3">Sushi</h2>
+              <h2 className="card-title font-bold text-lg mt-3">Sushi</h2>
             </div>
           </div>
         </div>
@@ -101,7 +102,7 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title font-bold text-xl mt-3">Pasta</h2>
+              <h2 className="card-title font-bold text-lg mt-3">Pasta</h2>
             </div>
           </div>
           <div className="card w-[250px] h-[250px] bg-base-100">
@@ -113,7 +114,7 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title font-bold text-xl mt-3">Salads</h2>
+              <h2 className="card-title font-bold text-lg mt-3">Salads</h2>
             </div>
           </div>
           <div className="card w-[250px] h-[250px] bg-base-100">
@@ -125,7 +126,7 @@ const Menu = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title font-bold text-xl mt-3">Desserts</h2>
+              <h2 className="card-title font-bold text-lg mt-3">Desserts</h2>
             </div>
           </div>
         </div>
