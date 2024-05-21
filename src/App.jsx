@@ -1,4 +1,5 @@
 import "./App.css";
+import Feedback from "./components/Feedback";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Header></Header>
       <Menu></Menu>
       <Order></Order>
+      <Feedback></Feedback>
 
     
     </>
