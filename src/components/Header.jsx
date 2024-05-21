@@ -19,10 +19,10 @@ const Header = () => {
     </div>
     <div className="flex flex-row justify-center md:justify-normal ">
   <div className="py-2 ">
-    <img src={AppleImg} alt="First Image" className="w-[158px] h-[40px] md:w-[168px] md:h-[50px] rounded-lg border-1 border-black" />
+    <img src={AppleImg} alt="First Image" className="w-[158px] h-[40px] md:w-[168px] md:h-[50px] rounded-lg border-1 border-black bg-[#F4F4F4]" />
   </div>
   <div className="p-2">
-    <img src={GoogleImg} alt="Second Image" className="w-[158px] h-[40px] md:w-[168px] md:h-[50px] rounded-lg border-2 border-black" />
+    <img src={GoogleImg} alt="Second Image" className="w-[158px] h-[40px] md:w-[168px] md:h-[50px] rounded-lg border-2 border-black bg-[#F4F4F4]" />
   </div>
 </div>
           </div>
