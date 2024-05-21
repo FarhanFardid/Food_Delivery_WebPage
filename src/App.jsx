@@ -3,6 +3,7 @@ import Feedback from "./components/Feedback";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
+import Newsletter from "./components/Newsletter";
 import Order from "./components/Order";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Menu></Menu>
       <Order></Order>
       <Feedback></Feedback>
+      <Newsletter></Newsletter>
 
     
     </>
