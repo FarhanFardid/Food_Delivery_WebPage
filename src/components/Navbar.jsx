@@ -3,7 +3,7 @@ import logo from "../assets/images/craveCourier.jpg";
 const Navbar = () => {
   return (
     // fixed z-20 top-0 start-0
-    <nav className="bg-white dark:bg-gray-900  w-full  border-b border-gray-200 ">
+    <nav className="bg-white dark:bg-gray-900  w-full  border-b border-gray-200 container-fluid">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-8 md:h-12" alt="Crave Courier Logo" />

@@ -5,7 +5,7 @@ import courierImg from '../assets/images/courier.png'
 
 const Header = () => {
     return (
-        <div className="container hero h-[478px] p-5 md:p-16 top-[20px] md:top-[221px] ">
+        <div className="container-fluid hero h-[478px] p-5 md:p-16 top-[20px] md:top-[221px] ">
         <div className="hero-content flex flex-col md:flex-row-reverse items-center justify-center">
           <img src={courierImg} className="w-[570px] h-[478px] rounded-xl shadow-2xl flex-1 transform scale-x-[-1] bg-[#F2EBDA] pt-5" />
           <div className="flex-1">
