@@ -19,8 +19,8 @@ const Menu = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-7 grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-12 gap-4 px-16 py-6">
+        <div className="col-span-6 grid grid-cols-3 gap-4">
           <div className=" card w-[250px] h-[250px] bg-base-100">
             <figure className=" px-12 ">
               <img
@@ -58,29 +58,25 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-5 flex flex-col items-center justify-center">
-          <div className="w-[400px] h-[62px] text-left px-4">
-            <h2 className="text-xl font-bold">
+        <div className="col-span-6 flex flex-col  items-center">
+          <div className="w-[400px] text-left ">
+            <h2 className="text-xl font-bold mr-12">
               Find <span className="text-[#FF5331]"> deals</span>,{" "}
               <span className="text-[#009B00]"> free delivery</span>, and more
               from our restaurant partners.
             </h2>
           </div>
-          <div>
-            <div className="card card-side bg-base-100 shadow-xl">
-             
-              <div className="card-body">
-         
-              </div>
-              <figure>
+     
+            <div className="bg-base-100 shadow-md">
+              <figure className="ml-48">
                 <img
                   src={deliveryBoy}
                   alt="Courier Boy"
-                  className="w-[195px] h-[116px]"
+                  className="w-[320px] h-[160px]"
                 />
               </figure>
             </div>
-          </div>
+        
         </div>
       </div>
     </div>
